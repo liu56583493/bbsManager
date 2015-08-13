@@ -1,0 +1,171 @@
+<%
+    layout("_layout.html", {title:'主题'}){
+%>
+<div class="admin-content">
+<form id="js_form_user" action="${ctxPath}/admin/ajax/add_update_user" method="post" enctype="multipart/form-data" class="am-form am-form-horizontal" data-am-validator>
+
+  <div class="am-cf am-padding">
+    <div class="am-fl am-cf">
+        <strong class="am-text-primary am-text-lg">用户管理</strong> 
+        / <small>用户列表>
+            <% if(!isEmpty(user)){ %>
+            修改用户
+            <% }else{ %>
+            新增用户
+            <% } %>
+          </small>
+    </div>
+  </div>
+
+  <div class="am-tabs am-margin" data-am-tabs>
+    <ul class="am-tabs-nav am-nav am-nav-tabs">
+      <li  class="am-active">
+          <a href="javascript:void(0);">
+              <% if(!isEmpty(user)){ %>
+            修改用户
+            <% }else{ %>
+            新增用户
+            <% } %>
+          </a>
+      </li>
+    </ul>
+    <div class="am-tabs-bd ">
+      <div class="am-tab-panel am-fade am-in am-active" id="tab2">
+            <input type="hidden" name="user.id" value="${user.id!}" id="userId"/>
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                账户名
+            </div>
+            <div class="am-u-sm-8 am-u-md-4">
+              <input type="text" class="am-input-sm" name="user.accounName" maxlength="16" pattern="^.{1,32}$" id="accounName" value="${user.accounName!}" required/>
+            </div>
+            <div class="am-hide-sm-only am-u-md-6" id="accounNameErrorText"></div>
+          </div>
+
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+               真实姓名
+            </div>
+            <div class="am-u-sm-8 am-u-md-4 am-u-end col-end">
+              <input type="text" class="am-input-sm" name="user.trueName" id="trueName" value="${user.trueName!}">
+            </div>
+          </div>
+
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                       密码
+            </div>
+            <div class="am-u-sm-8 am-u-md-4">
+              <input type="password" class="am-input-sm" id="password" name="user.password" value="${user.password!}" maxlength="16" pattern="^.{1,32}$" required/>
+            </div>
+            <div class="am-hide-sm-only am-u-md-6"></div>
+          </div>
+          
+           <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                 邮箱
+            </div>
+            <div class="am-u-sm-8 am-u-md-4">
+              <input type="text" class="am-input-sm" id="email" name="user.email" value="${user.email!}" pattern="^\w+([-+.]*\w+)*@([\da-z](-[\da-z])?)+(\.{1,2}[a-z]+)+$" required >
+            </div>
+            <div class="am-hide-sm-only am-u-md-6" id="emailErrorText"></div>
+          </div>
+          
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                 手机号
+            </div>
+            <div class="am-u-sm-8 am-u-md-4">
+              <input type="text" class="am-input-sm" id="phone" name="user.phone" value="${user.phone!}"  pattern="^1[34578]\d{9}$" required>
+            </div>
+            <div class="am-hide-sm-only am-u-md-6" name="phoneErrorText"></div>
+          </div>
+          
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                 性别
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <% if(isEmpty(user) && isEmpty(user.sex)){ %>
+                <input type="radio" id="sex" name="user.sex" value="0" <% if(user.sex!0 == 0) { %> checked="checked" <% } %>/>男
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="sex" name="user.sex" value="1" <% if(user.sex!0 == 1) { %> checked="checked" <% } %> >女
+              <% }else{ %>
+                <input type="radio" id="sex" name="user.sex" value="0" checked="checked" />男
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="sex" name="user.sex" value="1"/>女
+              <% } %>
+          </div>
+          
+          <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">用户类别</div>
+          <div class="am-u-sm-8 am-u-md-10">
+            <select data-am-selected="{btnSize: 'sm'}" name="user.role">
+              <% if(has(user) && has(user.role)){ %>
+              <option value="0" <% if(user.role!0 == 0) { %> selected="selected" <% } %>>普通用户</option>
+              <option value="1" <% if(user.role!0 == 1) { %> selected="selected" <% } %>>VIP用户</option>
+              <option value="2" <% if(user.role!0 == 2) { %> selected="selected" <% } %>>后台管理</option>
+              <% }else{ %>
+              <option value="0" >普通用户</option>
+              <option value="1" >VIP用户</option>
+              <option value="2" >后台管理</option>
+              <% } %>
+            </select>
+          </div>
+        </div>
+          
+         <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                 常住地
+            </div>
+            <div class="am-u-sm-8 am-u-md-4">
+              <input type="text" class="am-input-sm" id="address" name="user.address" value="${user.address!}" maxlength="16" pattern="^.{1,32}$"/>
+            </div>
+            <div class="am-hide-sm-only am-u-md-6"></div>
+          </div>
+          
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                 个性签名
+            </div>
+            <div class="am-u-sm-8 am-u-md-4">
+              <input type="text" class="am-input-sm" id="signature" name="user.signature" value="${user.signature!}"/>
+            </div>
+            <div class="am-hide-sm-only am-u-md-6"></div>
+          </div>
+           <div class="am-g am-margin-top">
+              <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                 头像
+               </div>
+                <div class="am-u-sm-9" style="float:none;">
+                        <div class="am-g">
+                            <div class="am-u-md-3">
+                               <% if (isEmpty(user.avatar)) { %>
+                                    <img id="viewImg" class="am-img-circle am-img-thumbnail" src="${ctxPath}/static/front/assets/i/touxiang-moren.jpg"/>
+                                <% } else { %>
+                                    <img id="viewImg" class="am-img-circle am-img-thumbnail" src="${user.avatar}"/>
+                                <% } %>
+                            </div>
+                            <div class="am-u-md-9">
+                                <p>最大2M，200x200像素</p>
+                                <div class="am-form-group am-form-file">
+                                    <button type="button" class="am-btn am-btn-danger am-btn-sm">
+                                        <i class="am-icon-cloud-upload"></i> 选择要上传的文件
+                                    </button>
+                                    <input id="user-pic" name="avatar" type="file" accept="image/*" multiple>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+    </div>
+    </div>
+    <div class="am-margin">
+        <button type="submit" class="am-btn am-btn-primary am-btn-xs">提交保存</button>
+        <button type="reset" class="am-btn am-btn-primary am-btn-xs">放弃保存</button>
+    </div>
+</form>
+</div>
+<!-- content end -->
+<% } %>

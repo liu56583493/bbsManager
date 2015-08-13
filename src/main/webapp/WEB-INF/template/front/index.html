@@ -1,0 +1,51 @@
+<html class="no-js" lang="en">
+<head>
+	<title>51torrent</title>
+    <meta name="keywords" content="iMovie 51torrent 蓝光电影 1024 高清 dreamlu 交流 分享" />
+	<meta name="description" content="iMovie 51torrent 蓝光电影 1024 高清 dreamlu 交流 分享" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+	<% include("/front/_inc/mate.html") {} %>
+	<!-- CSS Bootstrap & Custom -->
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/animate.css">
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="${ctxPath}/static/front/assets/css/templatemo_misc.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="/${ctxPath}static/front/assets/css/templatemo_style.css">
+</head>
+<body>
+	<% include("/front/_inc/header.html") {} %>
+	<div id="menu-container">
+		<div class="content homepage" id="menu-1">
+			<div class="container-fluid">
+				<div class="row">
+					<% for(x in recList){ %>
+					<% if(xLP.index == 1) {%>
+					<div class="col-md-2 col-sm-6 col-md-offset-1">
+					<% }else if(xLP.index == 6){ %>
+					<div class="col-md-2 col-sm-6 col-md-offset-2">
+					<% }else if(xLP.index == 10){ %>
+					<div class="col-md-2 col-sm-6 col-md-offset-3">
+					<% }else {%>
+					<div class="col-md-2 col-sm-6 ">
+					<% }%>
+						<div class="gallery-item">
+								<img src="${x.recUrl!}" width="175px;" height="117px;" alt="${x.name!}">
+								<div class="overlay">
+									<a href="${ctxPath}/movie/${x.id!}" class="fa fa-expand"></a>
+								</div>
+							<div class="content-gallery">
+								<h3><a href="${ctxPath}/movie/${x.id!}">${x.name!}</a></h3>
+							</div>
+						</div> <!-- /.gallery-item -->
+					</div>
+					<% } %> <!-- /.col-md-2 -->
+				</div> <!-- /.row -->
+			</div> <!-- /.slide-item -->
+		</div> <!-- /.homepage -->		
+	</div> <!-- /#menu-container -->
+	<% include("/front/_inc/footer.html") {} %>
+	<% include("/front/_inc/_script.html") {} %>
+</body>
+</html>

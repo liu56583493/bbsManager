@@ -1,0 +1,680 @@
+2015-06-30 10:17:13.581 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:19:24.371 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:19:25.184 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:47:11.392 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:47:12.218 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:47:21.504 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:47:22.152 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:47:41.697 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:47:42.374 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:53:15.040 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:53:15.701 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:54:05.522 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:54:06.270 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:55:06.126 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:55:06.782 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:55:16.257 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:55:16.920 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:57:27.537 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:57:28.179 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:57:37.674 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:57:38.317 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 10:57:47.761 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 10:57:48.469 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:18:30.171 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:18:30.849 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:18:50.361 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:18:51.018 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:30:15.426 [qtp540159270-24] ERROR com.jfinal.core.ActionHandler - /movie/%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0
+java.lang.NumberFormatException: For input string: "%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:569) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_45]
+	at com.jfinal.core.Controller.toInt(Controller.java:213) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.Controller.getParaToInt(Controller.java:591) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.controller.front.IndexController.movie(IndexController.java:70) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-06-30 11:30:15.444 [qtp540159270-23] ERROR com.jfinal.core.ActionHandler - /movie/%E5%BD%93%E5%B9%B8%E7%A6%8F%E6%9D%A5%E6%95%B2%E9%97%A8
+java.lang.NumberFormatException: For input string: "%E5%BD%93%E5%B9%B8%E7%A6%8F%E6%9D%A5%E6%95%B2%E9%97%A8"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:569) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_45]
+	at com.jfinal.core.Controller.toInt(Controller.java:213) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.Controller.getParaToInt(Controller.java:591) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.controller.front.IndexController.movie(IndexController.java:70) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-06-30 11:30:15.509 [qtp540159270-25] ERROR com.jfinal.core.ActionHandler - /movie/%E6%A2%A6%E7%B2%BE%E8%AE%B02
+java.lang.NumberFormatException: For input string: "%E6%A2%A6%E7%B2%BE%E8%AE%B02"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:569) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_45]
+	at com.jfinal.core.Controller.toInt(Controller.java:213) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.Controller.getParaToInt(Controller.java:591) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.controller.front.IndexController.movie(IndexController.java:70) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-06-30 11:40:15.607 [qtp540159270-20] ERROR com.jfinal.core.ActionHandler - /movie/undefined
+java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_45]
+	at com.jfinal.core.Controller.toInt(Controller.java:213) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.Controller.getParaToInt(Controller.java:591) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.controller.front.IndexController.movie(IndexController.java:70) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor91.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-06-30 11:41:13.796 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:41:14.679 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:41:33.985 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:41:34.663 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:42:14.422 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:42:15.137 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:42:19.827 [qtp540159270-22] ERROR com.jfinal.core.ActionHandler - /movie/undefined
+java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_45]
+	at com.jfinal.core.Controller.toInt(Controller.java:213) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.Controller.getParaToInt(Controller.java:591) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.controller.front.IndexController.movie(IndexController.java:71) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-06-30 11:47:47.746 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:47:48.421 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:48:07.922 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:48:08.666 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:48:28.142 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:48:28.802 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:48:48.344 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:48:49.075 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:49:28.733 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:49:29.590 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:50:06.976 [qtp540159270-20] INFO  com.bbs.manage.interceptor.AdminInterceptor - login[redirectUrl]:	/admin/land?from=%2Fadmin
+2015-06-30 11:50:19.244 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:50:19.898 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:50:29.369 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 11:50:30.083 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:57:46.264 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-06-30 11:57:46.456 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 11:57:46.492 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 11:57:46.492 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 11:57:47.229 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 11:57:47.946 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-06-30 12:59:53.543 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 12:59:53.545 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 12:59:53.905 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 12:59:53.907 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 12:59:53.907 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 12:59:54.448 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 13:00:23.834 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 13:00:23.842 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 13:00:24.202 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 13:00:24.204 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 13:00:24.204 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 13:00:24.936 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:05:14.650 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 19:05:14.652 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:05:14.980 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:05:14.982 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:05:14.982 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:05:15.601 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:05:24.777 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 19:05:24.779 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:05:25.104 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:05:25.106 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:05:25.106 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:05:25.737 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:07:05.766 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 19:07:05.769 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:07:06.049 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:07:06.050 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:07:06.051 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:07:06.521 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:08:06.382 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 19:08:06.384 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:08:06.665 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:08:06.666 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:08:06.667 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:08:07.121 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:16:20.021 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-06-30 19:16:20.186 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:16:20.210 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:16:20.211 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:16:20.832 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:16:21.438 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-06-30 19:18:43.074 [qtp540159270-23] ERROR com.jfinal.core.ActionHandler - /recommend/$%7Bflag%7D?pageNum=3
+java.lang.NumberFormatException: For input string: "$%7Bflag%7D"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:569) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_45]
+	at com.jfinal.core.Controller.toInt(Controller.java:213) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.Controller.getParaToInt(Controller.java:591) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.controller.front.IndexController.recommend(IndexController.java:39) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-06-30 19:19:08.066 [qtp540159270-24] ERROR com.jfinal.core.ActionHandler - /recommend/flag?pageNum=3
+java.lang.NumberFormatException: For input string: "flag"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[na:1.8.0_45]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[na:1.8.0_45]
+	at com.jfinal.core.Controller.toInt(Controller.java:213) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.Controller.getParaToInt(Controller.java:591) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.controller.front.IndexController.recommend(IndexController.java:39) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-06-30 19:20:52.767 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 19:20:52.770 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:20:53.273 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:20:53.275 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:20:53.275 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:20:53.829 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:36:32.138 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 19:36:32.152 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:36:32.472 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:36:32.474 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:36:32.474 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:36:32.940 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:40:14.360 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 19:40:14.362 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:40:14.629 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:40:14.631 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:40:14.631 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:40:15.107 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 19:40:24.484 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 19:40:24.485 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:40:24.756 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 19:40:24.757 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:40:24.757 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 19:40:25.334 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:22:29.669 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:22:29.670 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:22:29.951 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:22:29.952 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:22:29.952 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:22:30.387 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:23:10.081 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:23:10.083 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:23:10.302 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:23:10.303 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:23:10.303 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:23:10.755 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:23:30.269 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:23:30.271 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:23:30.523 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:23:30.525 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:23:30.525 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:23:30.975 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:24:20.770 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:24:20.772 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:24:20.988 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:24:20.989 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:24:20.989 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:24:21.444 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:24:40.968 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:24:40.969 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:24:41.191 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:24:41.192 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:24:41.193 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:24:41.635 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:25:01.168 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:25:01.169 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:25:01.397 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:25:01.398 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:25:01.398 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:25:01.854 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:25:11.275 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:25:11.278 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:25:11.508 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:25:11.510 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:25:11.511 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:25:12.029 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:27:02.649 [qtp540159270-20] ERROR com.jfinal.core.ActionHandler - /recommend/1?word=%E7%AA%83%E5%90%AC%E9%A3%8E%E6%9A%B4
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'tors LIEK ? AND t.content LIKE ? AN',expect IDENTIFIER, actual IDENTIFIER LIEK : select count(*)  FROM t_movie t WHERE 1 = 1 AND t.name LIKE ? AND t.actors LIEK ? AND t.content LIKE ? AND t.type = ? AND t.isDeleted=0 
+	at com.jfinal.plugin.activerecord.Model.paginate(Model.java:235) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.model.TMovie.findIndex(TMovie.java:232) ~[classes/:na]
+	at com.bbs.manage.controller.front.IndexController.recommend(IndexController.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'tors LIEK ? AND t.content LIKE ? AN',expect IDENTIFIER, actual IDENTIFIER LIEK : select count(*)  FROM t_movie t WHERE 1 = 1 AND t.name LIKE ? AND t.actors LIEK ? AND t.content LIKE ? AND t.type = ? AND t.isDeleted=0 
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:711) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:240) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:318) ~[druid-1.0.14.jar:1.0.14]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.plugin.activerecord.SqlReporter.invoke(SqlReporter.java:58) ~[jfinal-1.9.jar:na]
+	at com.sun.proxy.$Proxy19.prepareStatement(Unknown Source) ~[na:na]
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:67) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.activerecord.Db.query(Db.java:40) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.activerecord.Model.paginate(Model.java:250) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.activerecord.Model.paginate(Model.java:233) ~[jfinal-1.9.jar:na]
+	... 34 common frames omitted
+Caused by: com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'tors LIEK ? AND t.content LIKE ? AN',expect IDENTIFIER, actual IDENTIFIER LIEK
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:230) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:325) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:121) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:620) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:574) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:699) ~[druid-1.0.14.jar:1.0.14]
+	... 54 common frames omitted
+2015-06-30 20:28:11.229 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-06-30 20:28:11.429 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:28:11.466 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:28:11.467 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:28:12.188 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:28:12.986 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-06-30 20:28:50.321 [qtp1785507932-24] ERROR com.jfinal.core.ActionHandler - /recommend/1?word=%E5%90%AF%E7%A4%BA%E5%BD%95
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'tors LIEK ? AND t.content LIKE ? AN',expect IDENTIFIER, actual IDENTIFIER LIEK : select count(*)  FROM t_movie t WHERE 1 = 1 AND t.name LIKE ? AND t.actors LIEK ? AND t.content LIKE ? AND t.type = ? AND t.isDeleted=0 
+	at com.jfinal.plugin.activerecord.Model.paginate(Model.java:235) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.model.TMovie.findIndex(TMovie.java:232) ~[classes/:na]
+	at com.bbs.manage.controller.front.IndexController.recommend(IndexController.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'tors LIEK ? AND t.content LIKE ? AN',expect IDENTIFIER, actual IDENTIFIER LIEK : select count(*)  FROM t_movie t WHERE 1 = 1 AND t.name LIKE ? AND t.actors LIEK ? AND t.content LIKE ? AND t.type = ? AND t.isDeleted=0 
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:711) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:240) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:318) ~[druid-1.0.14.jar:1.0.14]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.plugin.activerecord.SqlReporter.invoke(SqlReporter.java:58) ~[jfinal-1.9.jar:na]
+	at com.sun.proxy.$Proxy4.prepareStatement(Unknown Source) ~[na:na]
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:67) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.activerecord.Db.query(Db.java:40) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.activerecord.Model.paginate(Model.java:250) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.activerecord.Model.paginate(Model.java:233) ~[jfinal-1.9.jar:na]
+	... 34 common frames omitted
+Caused by: com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'tors LIEK ? AND t.content LIKE ? AN',expect IDENTIFIER, actual IDENTIFIER LIEK
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:230) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:325) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:121) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:620) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:574) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:699) ~[druid-1.0.14.jar:1.0.14]
+	... 54 common frames omitted
+2015-06-30 20:30:22.557 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:30:22.559 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:30:22.977 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:30:22.979 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:30:22.980 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:30:23.547 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:32:03.586 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:32:03.588 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:32:03.983 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:32:03.985 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:32:03.986 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:32:04.916 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:32:33.860 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:32:33.863 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:32:34.281 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:32:34.283 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:32:34.284 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:32:34.869 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:33:16.305 [qtp1785507932-24] ERROR com.jfinal.core.ActionHandler - /search
+com.jfinal.plugin.activerecord.ActiveRecordException: com.alibaba.druid.pool.DataSourceClosedException: dataSource already closed at Tue Jun 30 20:32:03 CST 2015
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:455) ~[jfinal-1.9.jar:na]
+	at com.bbs.manage.model.TMovie.search(TMovie.java:340) ~[classes/:na]
+	at com.bbs.manage.controller.front.IndexController.search(IndexController.java:145) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:77) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: com.alibaba.druid.pool.DataSourceClosedException: dataSource already closed at Tue Jun 30 20:32:03 CST 2015
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionInternal(DruidDataSource.java:1057) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:960) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4544) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2723) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:827) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:661) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:4540) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:938) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:930) ~[druid-1.0.14.jar:1.0.14]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:102) ~[druid-1.0.14.jar:1.0.14]
+	at com.jfinal.plugin.activerecord.Config.getConnection(Config.java:185) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:452) ~[jfinal-1.9.jar:na]
+	... 34 common frames omitted
+2015-06-30 20:34:45.191 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:34:45.195 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:34:45.519 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:34:45.520 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:34:45.521 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:34:46.188 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:34:55.300 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-06-30 20:34:55.304 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:34:55.712 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:34:55.714 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:34:55.714 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:34:56.252 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:35:59.837 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-06-30 20:36:00.022 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:36:00.055 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:36:00.055 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:36:00.692 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 20:36:01.364 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-06-30 20:38:29.813 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 20:38:29.818 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:38:29.819 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 20:38:30.427 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 23:35:05.875 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-06-30 23:35:06.062 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-06-30 23:35:06.078 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 23:35:06.078 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-06-30 23:35:06.703 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-06-30 23:35:07.342 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080

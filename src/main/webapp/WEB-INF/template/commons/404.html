@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>404页面不存在</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<% include("/front/_inc/_mate.html") {} %>
+	<link rel="stylesheet" href="${ctxPath}/static/front/assets/css/csm-404.css">
+</head>
+<body>
+	<div>
+		<img src="${ctxPath}/static/front/assets/i/touxiang404.gif" />
+	</div>
+	<br />
+	<div>
+		<img src="${ctxPath}/static/front/assets/i/tiaozhuan.jpg" />
+	</div>
+	<br />
+	<div>
+		<a href="${ctxPath}/wap/forum/index" class="am-btn am-btn-default">去社区转转</a>
+		<a href="${ctxPath}/wap/index" class="am-btn am-btn-default">去看看新闻</a>
+	</div>
+	<p>页面将在&nbsp;&nbsp;<span class="daojishi" id="countdown">5</span> &nbsp;&nbsp;秒后自动跳转到社区首页...</p>
+</body>
+<script type="text/javascript">
+function timeRun(func,delay){
+    var timeId = window.setInterval(function(){
+        if(!func()){
+            window.clearInterval(timeId);
+        };
+    },delay);
+}
+var time = 5;
+timeRun(function run(){
+    time -- ;
+    if(time==0) {
+        window.location.href = "${ctxPath}/";
+        return false;
+    }
+    document.getElementById("countdown").innerHTML = time;
+    return true;
+}, 1000);
+</script>
+</html>

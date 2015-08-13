@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>51torrent 注册</title>
+  <% include("/front/_inc/_mate.html") {} %>
+  <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/regiter.css"/>
+  <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 200%;
+      color: #333;
+      margin-top: 30px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <div class="am-g">
+    <h1><a class="cms-pc-title01" href="http://www.siweifu.com">51torrent | </a><span class="cms-pc-title">注册</span></h1>
+    <p></p>
+  </div>
+  <hr />
+</div>
+<div class="am-g">
+  <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered cms-regiter-form">
+    <form id="js_form" method="post" action="${ctxPath}/ajax/create_user" class="am-form" data-am-validator>
+      <label for="email">手机号/邮箱:</label>
+      <input type="text" name="userName" id="email" pattern="^\w+([-+.]*\w+)*@([\da-z](-[\da-z])?)+(\.{1,2}[a-z]+)+$|^1[34578]\d{9}$" required>
+      <br>
+      <label for="password">密码:</label>
+      <input type="password" name="passWord" id="password" pattern="^.{6,32}$" required>
+      <br>
+	  <label for="re-password">确认密码:</label>
+      <input type="password" id="re-password" data-equal-to="#password" required>
+      <br>
+      <label for="img-code">验证码:</label>
+      <img src="${ctxPath}/img_code?v=" onclick="javascript:this.src='${ctxPath}/img_code?' + new Date().getTime();" alt="点击刷新" style="cursor: pointer;height: 2.5rem;">
+      <input type="text" name="randomCode" id="img-code" minlength="4" maxlength="4" required>
+      <br>
+	  <label for="remember-me" class="cms-remember">
+      <input id="remember-me" type="checkbox" checked required>我同意并遵守《51torrent相关协议》
+      </label>
+      <br>
+      <div class="am-cf cms-regiter-btt">
+        <input type="submit" value="注 册" class="am-btn am-btn-primary">
+      </div>
+	  <p><a href="${ctxPath}/land?from=${swf.encodeUrl(from)}" class="am-btn am-btn-link">已有账号？直接登陆</a></p>
+    </form>
+    <hr>
+    <p>© 201551torrent 所有</p>
+  </div>
+</div>
+
+<% include("/front/_inc/_script.html") {} %>
+<script type="text/javascript">
+	$(function(){
+		//js提交
+		$('#js_form').submit(function() { 
+			var $form = $(this);
+			// 参数表单参数
+			if (!checkForm($form)) {
+				return false;
+			}
+			$.post($form.attr("action"), $form.serialize(), function(data){
+				if ( data.code === 0) {
+					layer.msg("注册成功~", {shift: 1});
+					setTimeout(function(){window.location.href = "${from}";}, 1200);
+				} else {
+					$form.find("img")[0].click();
+					layer.msg(data.message, {shift: 6});
+				}
+			});
+			return false; 
+		});
+	});
+</script>
+</body>
+</html>

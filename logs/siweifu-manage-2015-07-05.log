@@ -1,0 +1,448 @@
+2015-07-05 09:13:22.904 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:13:41.208 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:13:42.278 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:17:23.428 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:17:24.415 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:24:46.425 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-07-05 09:24:46.627 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:24:46.663 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:24:46.663 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:24:47.409 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:24:48.560 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-07-05 09:30:53.358 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:30:53.363 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:30:53.879 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:30:53.881 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:30:53.882 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:30:54.532 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:30:55.380 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:30:55.387 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:30:56.018 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:30:56.023 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:30:56.023 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:30:56.834 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:40:00.803 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:40:00.806 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:40:01.151 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:40:01.153 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:40:01.153 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:40:01.763 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:56:49.088 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:56:49.092 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:56:49.816 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:56:49.818 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:56:49.818 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:56:50.378 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:56:59.190 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:56:59.192 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:56:59.622 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:56:59.624 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:56:59.625 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:00.196 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:57:09.289 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:57:09.292 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:09.609 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:57:09.611 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:09.612 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:10.181 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:57:19.391 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:57:19.393 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:19.814 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:57:19.817 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:19.817 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:20.360 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:57:29.492 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:57:29.498 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:29.794 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:57:29.795 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:29.795 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:30.527 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:57:39.589 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 09:57:39.592 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:39.980 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 09:57:39.982 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:39.982 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 09:57:40.601 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 09:58:36.429 [qtp135640095-30] ERROR com.jfinal.core.ActionHandler - /search
+java.lang.NullPointerException: null
+	at org.apache.lucene.util.ReaderUtil.gatherSubReaders(ReaderUtil.java:42) ~[lucene-core-3.5.0.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.search.IndexSearcher.gatherSubReaders(IndexSearcher.java:210) ~[lucene-core-3.5.0.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.search.IndexSearcher.<init>(IndexSearcher.java:190) ~[lucene-core-3.5.0.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.search.IndexSearcher.<init>(IndexSearcher.java:115) ~[lucene-core-3.5.0.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at com.bbs.ext.lucene.index.IndexContext.getIndexSearcher(IndexContext.java:571) ~[classes/:na]
+	at com.bbs.ext.lucene.index.IndexContext.search(IndexContext.java:313) ~[classes/:na]
+	at com.bbs.manage.controller.front.IndexController.search(IndexController.java:172) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:73) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-07-05 09:59:33.610 [qtp135640095-28] ERROR com.jfinal.core.ActionHandler - /search
+java.lang.NullPointerException: null
+	at org.apache.lucene.util.ReaderUtil.gatherSubReaders(ReaderUtil.java:42) ~[lucene-core-3.5.0.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.search.IndexSearcher.gatherSubReaders(IndexSearcher.java:210) ~[lucene-core-3.5.0.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.search.IndexSearcher.<init>(IndexSearcher.java:190) ~[lucene-core-3.5.0.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.search.IndexSearcher.<init>(IndexSearcher.java:115) ~[lucene-core-3.5.0.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at com.bbs.ext.lucene.index.IndexContext.getIndexSearcher(IndexContext.java:571) ~[classes/:na]
+	at com.bbs.ext.lucene.index.IndexContext.search(IndexContext.java:313) ~[classes/:na]
+	at com.bbs.manage.controller.front.IndexController.search(IndexController.java:172) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:73) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-07-05 10:03:02.810 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:03:02.813 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:03.079 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:03:03.081 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:03.082 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:03.699 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:03:23.030 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:03:23.034 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:23.310 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:03:23.312 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:23.312 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:23.817 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:03:43.210 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:03:43.213 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:43.630 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:03:43.635 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:43.635 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:44.244 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:03:53.313 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:03:53.316 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:53.607 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:03:53.610 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:53.610 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:03:54.254 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:04:03.429 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:04:03.430 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:04:03.762 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:04:03.764 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:04:03.764 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:04:04.387 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:04:23.613 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:04:23.616 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:04:23.964 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:04:23.968 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:04:23.969 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:04:24.951 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:34:51.830 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:34:51.835 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:34:52.196 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:34:52.198 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:34:52.198 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:34:52.858 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:35:12.042 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:35:12.045 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:12.310 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:35:12.312 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:12.312 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:12.962 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:35:22.163 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:35:22.166 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:22.468 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:35:22.469 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:22.469 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:23.008 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:35:32.244 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:35:32.246 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:32.554 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:35:32.557 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:32.557 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:35:33.181 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:37:53.662 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:37:53.670 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:37:53.951 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:37:53.952 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:37:53.953 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:37:54.619 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:42:36.482 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:42:36.485 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:42:36.773 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:42:36.775 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:42:36.775 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:42:37.293 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:45:38.293 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:45:38.296 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:45:38.590 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:45:38.592 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:45:38.592 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:45:39.120 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:47:10.153 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:47:10.157 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:47:10.558 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:47:10.561 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:47:10.561 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:47:11.144 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:48:30.961 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:48:30.965 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:48:31.356 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:48:31.357 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:48:31.358 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:48:31.996 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:48:41.960 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:48:41.964 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:48:42.429 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:48:42.430 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:48:42.431 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:48:42.965 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:49:12.662 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:49:12.665 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:49:13.156 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:49:13.158 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:49:13.158 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:49:13.671 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:50:53.677 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:50:53.681 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:50:53.972 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:50:53.973 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:50:53.973 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:50:55.912 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:51:13.884 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:51:13.889 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:14.181 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:51:14.183 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:14.183 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:14.712 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:51:44.488 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:51:44.492 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:44.905 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:51:44.907 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:44.907 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:45.481 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:51:54.590 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:51:54.594 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:54.886 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:51:54.888 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:54.888 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:51:55.413 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:52:35.021 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:52:35.027 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:52:35.511 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:52:35.513 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:52:35.513 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:52:36.094 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:56:58.442 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:56:58.447 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:56:58.731 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:56:58.732 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:56:58.733 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:56:59.226 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 10:57:09.751 [qtp135640095-27] ERROR com.jfinal.core.ActionHandler - /search
+java.lang.IllegalStateException: 表达式异常： 缺少逻辑操作符 或 括号缺失
+	at org.wltea.analyzer.lucene.IKQueryParser$ExpressionParser.parserExp(IKQueryParser.java:576) ~[IKAnalyzer.jar:na]
+	at org.wltea.analyzer.lucene.IKQueryParser.parse(IKQueryParser.java:156) ~[IKAnalyzer.jar:na]
+	at com.bbs.manage.controller.front.IndexController.search(IndexController.java:172) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at com.jfinal.core.ActionInvocation.invoke(ActionInvocation.java:55) ~[jfinal-1.9.jar:na]
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:73) ~[jfinal-1.9.jar:na]
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75) [jfinal-1.9.jar:na]
+	at com.bbs.ext.handler.StaticHandler.handle(StaticHandler.java:40) [classes/:na]
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72) [jfinal-1.9.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560) [jetty-server-8.1.8.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+2015-07-05 10:59:19.863 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 10:59:19.869 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:59:20.142 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 10:59:20.144 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:59:20.144 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 10:59:20.685 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:02:01.461 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:02:01.466 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:02:01.783 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:02:01.786 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:02:01.786 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:02:03.146 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:04:32.965 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:04:32.969 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:04:33.249 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:04:33.251 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:04:33.251 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:04:33.791 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:04:53.166 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:04:53.171 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:04:53.427 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:04:53.429 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:04:53.429 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:04:53.944 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:05:23.472 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:05:23.475 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:23.840 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:05:23.854 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:23.854 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:24.646 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:05:33.583 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:05:33.585 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:33.855 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:05:33.856 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:33.856 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:34.452 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:05:43.686 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:05:43.690 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:43.963 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:05:43.965 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:43.965 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:05:44.509 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:06:13.977 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:06:13.982 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:06:14.280 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:06:14.281 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:06:14.282 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:06:14.804 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:06:24.075 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:06:24.079 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:06:24.719 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:06:24.720 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:06:24.721 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:06:25.353 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:10:16.387 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:10:16.391 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:10:16.733 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:10:16.735 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:10:16.735 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:10:17.373 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:10:56.797 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:10:56.803 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:10:57.079 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:10:57.082 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:10:57.083 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:10:57.620 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:11:07.076 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:11:07.079 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:11:07.737 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:11:07.739 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:11:07.739 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:11:08.261 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:17:21.151 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:17:21.154 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:17:21.422 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:17:21.424 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:17:21.425 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:17:22.110 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:19:02.150 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:19:02.152 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:02.422 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:19:02.425 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:02.425 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:02.968 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:19:32.456 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:19:32.464 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:32.733 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:19:32.735 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:32.735 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:33.390 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:19:52.651 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:19:52.655 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:52.948 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:19:52.950 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:52.950 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:19:53.974 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:21:33.450 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-07-05 11:21:33.641 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:21:33.670 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:21:33.671 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:21:34.380 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:21:35.424 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-07-05 11:22:54.278 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:22:54.280 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:22:54.690 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:22:54.693 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:22:54.693 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:22:55.422 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:26:06.184 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:26:06.187 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:26:06.659 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:26:06.661 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:26:06.662 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:26:07.361 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:27:37.088 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2015-07-05 11:27:37.090 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - stopped o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:27:37.367 [JFinal-Scanner] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:27:37.369 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:27:37.369 [JFinal-Scanner] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:27:37.865 [JFinal-Scanner] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:41:06.738 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-07-05 11:41:06.953 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-07-05 11:41:06.984 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:41:06.984 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/E:/siweifuwork/bbsManage/src/main/webapp/}
+2015-07-05 11:41:08.841 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-07-05 11:41:10.025 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080

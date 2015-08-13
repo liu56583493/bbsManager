@@ -1,0 +1,104 @@
+<%
+    layout("_layout.html", {title:'主题'}){
+%>
+  <div class="admin-content">
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">用户管理</strong> </div>
+    </div>
+
+    <div class="am-g">
+      <div class="am-u-sm-12 am-u-md-6">
+        <div class="am-btn-toolbar">
+          <div class="am-btn-group am-btn-group-xs">
+            <button type="button" class="am-btn am-btn-default add-update-user" ><span class="am-icon-plus"></span> 新增</button>
+            <button type="button" class="am-btn am-btn-default" onclick="deleteUser('',2)"><span class="am-icon-trash-o"></span> 删除</button>
+          </div>
+        </div>
+      </div>
+      <form id="userForm" name="userForm" actin="${ctxPath}/admin/user_list" method="post">
+      <input type="hidden" name="pageNumber" value="${pageNumber}"/>
+      <input type="hidden" name="pageSize" value="${pageSize}"/>
+      <div class="am-u-sm-12 am-u-md-3">
+        <div class="am-form-group">
+          <select name="role" data-am-selected="{btnSize: 'sm'}">
+            <option value="3">用户类别</option>
+            <option value="0" <% if(params.role == 0){  %> selected="selected" <% }%>>普通用户</option>
+            <option value="1" <% if(params.role == 1){  %> selected="selected" <% }%>>VIP用户</option>
+            <option value="2" <% if(params.role == 2){  %> selected="selected" <% }%>>后台用户</option>
+          </select>
+        </div>
+      </div>
+      <div class="am-u-sm-12 am-u-md-3">
+        <div class="am-input-group am-input-group-sm">
+          <input type="text" class="am-form-field"  name="accounName" value="${params.accounName}" placeholder="账户名或邮箱或手机号"  >
+          <span class="am-input-group-btn">
+            <input class="am-btn am-btn-default" type="submit">搜索</submit>
+          </span>
+        </div>
+      </div>
+      </form>
+    </div>
+
+    <div class="am-g">
+      <div class="am-u-sm-12">
+        <form class="am-form">
+          <table class="am-table am-table-striped am-table-hover table-main">
+            <thead>
+              <tr>
+                <th class="table-check">
+                	<input type="checkbox" class="table-check" />
+                	<input type="hidden" name="deleteUserIds" id="deleteUserIds"/>
+                </th>
+                <th class="table-id">序号</th>
+                <th class="table-accounName">账户名</th>
+                <th class="table-email">邮箱</th>
+                <th class="table-phone">手机号</th>
+                <th class="table-balance">余额</th>
+                <th class="table-role">用户类别</th>
+                <th class="table-createAt am-hide-sm-only">创建日期</th>
+                <th class="table-set">操作</th>
+              </tr>
+          </thead>
+          <tbody>
+           	<% for(x in userPage.list!) { %>
+            <tr>
+              <td><input type="checkbox" value="${x.id}" name="userCheckbox" onclick="cancleChooseAll(this);"/></td>
+              <td>${xLP.index!}</td>
+              <td>${x.accounName!}</td>
+              <td>${x.email!}</td>
+              <td>${x.phone!}</td>
+              <td>${x.balanceStr!}</td>
+              <td class="am-hide-sm-only">
+              	<% if(x.role == 0) { %>
+					普通用户
+				 <% } else if (x.role == 1){ %>
+				 	VIP
+				  <% } else {%>
+				  	后台管理用户
+				  <% } %>
+              </td>
+              <td class="am-hide-sm-only">${x.createAtr!}</td>
+              <td>
+                <div class="am-btn-toolbar">
+                  <div class="am-btn-group am-btn-group-xs">
+                    <submit class="am-btn add-update-user" rel="${x.id}"><span class="am-icon-pencil-square-o"></span> 编辑</submit>
+                    <submit class="am-btn " onclick="deleteUser('${x.id}',1);"><span class="am-icon-trash-o"></span> 删除</submit>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <% } %>
+          </tbody>
+        </table>
+   		<div class="am-cf">
+  	共 ${userPage.totalRow!0} 条记录
+  <div class="am-fr">
+   	<% include("/commons/_paginate.html", {actionUrl: ctxPath + '/admin/user_list', page: userPage!}){} %>
+  </div>
+</div>
+ <hr />
+   </div>
+    </div>
+  </div>
+<% } %>

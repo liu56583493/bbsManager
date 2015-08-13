@@ -1,0 +1,37 @@
+upstream swf${domain} {
+    server 192.168.59.103:${port};
+}
+
+server {
+    listen       80;
+    server_name  ${server_name};
+
+    #charset koi8-r;
+
+    #access_log  logs/host.access.log  main;
+
+    location ~ ^/(WEB-INF)/ {
+        return 404;
+    }
+
+    location / {
+        proxy_pass http://swf${domain};
+
+        proxy_redirect             off;
+        proxy_set_header           Host $host;
+        proxy_set_header           X-Real-IP $remote_addr;
+        proxy_set_header           X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header           X-Forwarded-Proto $scheme;
+        client_max_body_size       100m;
+        client_body_buffer_size    256k;
+        proxy_connect_timeout      500;
+        proxy_send_timeout         2000;
+        proxy_read_timeout         2000;
+        proxy_ignore_client_abort  on;
+        proxy_cache                off;
+        proxy_buffer_size          128k;
+        proxy_buffers              4 256k;
+        proxy_busy_buffers_size    256k;
+        proxy_temp_file_write_size 256k;
+    }
+}

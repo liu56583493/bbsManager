@@ -1,0 +1,7 @@
+2015-08-03 10:44:29.149 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-08-03 10:44:29.329 [main] INFO  o.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2015-08-03 10:44:29.376 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/C:/Users/lenovo/Desktop/新建文件夹/bbsManage/src/main/webapp/}
+2015-08-03 10:44:29.377 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - started o.e.j.w.WebAppContext{/,file:/C:/Users/lenovo/Desktop/新建文件夹/bbsManage/src/main/webapp/}
+2015-08-03 10:44:30.067 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2015-08-03 10:44:31.219 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+2015-08-03 10:45:46.852 [qtp22428221-24] INFO  com.bbs.manage.interceptor.AdminInterceptor - login[redirectUrl]:	/admin/land?from=%2Fadmin%2F

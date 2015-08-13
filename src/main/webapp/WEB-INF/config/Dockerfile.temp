@@ -1,0 +1,13 @@
+FROM tomcat
+
+MAINTAINER Dreamlu <qq596392912@gmail.com>
+
+COPY ${proWar} _temp.war
+
+RUN set -x \
+    && rm -rf webapps/* \
+	&& unzip -o _temp.war -d webapps/ROOT \
+	&& rm _temp.war
+
+EXPOSE 8080
+CMD ["catalina.sh", "run"]

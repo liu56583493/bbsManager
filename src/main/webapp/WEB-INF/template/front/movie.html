@@ -1,0 +1,109 @@
+<html class="no-js" lang="en">
+<head>
+	<title>51torrent</title>
+    <meta name="keywords" content="iMovie 51torrent 蓝光电影 1024 高清 dreamlu 交流 分享  ${movie.name!}" />
+	<meta name="description" content="iMovie 51torrent 蓝光电影 1024 高清 dreamlu 交流 分享 ${movie.name!}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+	<% include("/front/_inc/mate.html") {} %>
+	<!-- CSS Bootstrap & Custom -->
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/animate.css">
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="${ctxPath}/static/front/assets/css/templatemo_misc.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="/${ctxPath}static/front/assets/css/templatemo_style.css">
+</head>
+<body>
+	<% include("/front/_inc/header.html") {} %>
+	<div id="menu-container">
+		<div class="content about animated fadeInDown" id="menu-4" style="display:block;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9 col-sm-10">
+						<div class="about-us-content">
+							<div class="toggle-content" id="tab4">
+								<h2 class="page-title">${movie.name!}</h2>
+                                
+								<p>
+									<img src="${movie.img!}" height="445px" width="300px" alt="product 4" class="img-responsive img_left"/>
+									<ul>
+										<li>评分：${movie.rating!0}.0</li>
+										<li>地区：${movie.country!}</li>
+										<li>导演：${movie.category!}</li>
+										<li>演员：${movie.actors!}</li>
+										<li>上映时间：${movie.year!}</li>
+										<li>下载次数：${movie.downNum!}</li>
+									</ul>
+									<br/>
+									${movie.content!}
+									<center>
+									<div class="contact-form">
+										<fieldset>
+											<% if (!isEmpty(user.accounName)) { %>
+											<input type="hidden" id="movieAddress" value="${movie.address!}"/>
+											<% } %>
+											<input type="button" name="send" value="Down load now" style="color:#b10021;" onclick="downMoive(this);" id="button" class="button">
+										</fieldset>
+									</div> 
+									</center>
+									<!-- 多说评论框 start -->
+								<!-- UY BEGIN -->
+							<script type="text/javascript" id="wumiiComments">
+							    var wumiiPermaLink = ""; //请用代码生成文章永久的链接
+							    var wumiiTitle = ""; //请用代码生成文章标题
+							    var wumiiSitePrefix = "http://movie.dreamlu.net/"; //安装无觅评论插件的网站的域名，如果是放在子域名上，请提供子域名，如"http://blog.wumii.com"。如果这里填写的域名不对，请自行改正。
+							    var wumiiCommentParams = "&pf=JAVASCRIPT";
+							</script>
+							<script type="text/javascript" src="http://widget.wumii.cn/ext/cw/widget"></script>
+								<!-- UY END -->
+								</p>
+							</div> <!-- /.toggle-content -->
+						</div> <!-- /.inner-content -->
+					</div> <!-- /.col-md-9 -->
+					<div class="col-md-3 col-sm-2">
+						<div id="icons-about">
+							<h2 class="page-title">热门推荐：</h2>
+							<br/>
+							<ul class="tabs">
+								<% for(x in ratMaxList){ %>
+								<li>
+									<a href="javascript:void(0);" rel="${x.id!}" class="icon-item">
+										<i class="fa fa-umbrella">
+										</i>
+										<span>${x.name!}</span>
+									</a> <!-- /.icon-item -->
+								</li>
+								<% } %>
+							</ul>
+						</div> <!-- /.icons -->
+					</div> <!-- /.col-md-3 -->
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+	   </div>
+<% include("/front/_inc/footer.html") {} %>
+<% include("/front/_inc/_script.html") {} %>
+</body>
+<script type="text/javascript">
+	function downMoive(dom){
+		var address = $("#movieAddress").val();
+		if(address == undefined || address == ""){
+			window.location.href = "${ctxPath}/land?from=/movie/${movie.id!}"
+			return false;
+		}
+		var url = getCtxPath() + "/ajax/movie/${movie.id!}";
+		$.post(url ,function(data){
+			if(data.code == 1){
+				layer.msg('下载失败!', {shift: 6});
+				return false;
+			}
+		});
+		window.open(address);
+		setTimeout(function() {location.reload(true);}, 500);
+	}
+	$(".icon-item").click(function(){
+		var url = "${ctxPath}/movie/" +$(this).attr("rel");
+		window.location.href=url;
+	})
+</script>
+</html>

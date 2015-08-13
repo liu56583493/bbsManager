@@ -1,0 +1,74 @@
+<% layout("_layout.html", {title:'主题'}){ %>
+<div class="admin-content">
+    <div class="am-cf am-padding">
+        <div class="am-fl am-cf">
+            <strong class="am-text-primary am-text-lg">系统管理</strong> / <small>系统列表</small> / <small><% if(isEmpty(app)) { %>新增<% } else { %>修改<% } %></small>
+        </div>
+    </div>
+    <hr />
+    <div class="am-g" style="margin-bottom: 40%;">
+        <div class="am-u-sm-12 am-u-md-8">
+            <form id="js_app_add_update_form" action="${ctxPath}/admin/ajax/app_save_update" enctype="multipart/form-data" method="post" class="am-form am-form-horizontal" data-am-validator>
+                <input type="hidden" name="app.id" value="${app.id!}">
+                <div class="am-form-group">
+                    <label for="app-name" class="am-u-sm-3 am-form-label">系统名</label>
+                    <div class="am-u-sm-9">
+                        <input type="text" id="app-name" name="app.name" value="${app.name!}" placeholder="系统名" required="required">
+                    </div>
+                </div>
+
+                <div class="am-form-group">
+                    <label for="app-icon" class="am-u-sm-3 am-form-label">系统图标</label>
+                    <div class="am-u-sm-9">
+                        <div class="am-g">
+                            <div class="am-u-md-3">
+                                <% if (isEmpty(app.icon)) { %>
+                                    <img id="viewImg" class="am-img-circle am-img-thumbnail" src="${ctxPath}/static/admin/assets/i/system.png">
+                                <% } else { %>
+                                    <img id="viewImg" class="am-img-circle am-img-thumbnail" src="${app.icon!}">
+                                <% } %>
+                            </div>
+                            <div class="am-u-md-9">
+                                <p>最大2M，200x200像素</p>
+                                <div class="am-form-group am-form-file">
+                                    <button type="button" class="am-btn am-btn-danger am-btn-sm">
+                                        <i class="am-icon-cloud-upload"></i> 选择要上传的文件
+                                    </button>
+                                    <input id="user-pic" name="appIcon" type="file" accept="image/*" required="required" multiple>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="am-form-group">
+                    <label for="app-images" class="am-u-sm-3 am-form-label">镜像</label>
+                    <div class="am-u-sm-9">
+                        <% if (isEmpty(imgList) || imgList.~size < 1) { %>
+                            <a href="${ctxPath}/admin/images_build">请先构建镜像</a>
+                        <% } else { %>
+                            <select name="app.image" id="app-images" data-am-selected="{btnSize: 'sm'}">
+	                            <% for(x in imgList) { %>
+	                                <% if (x.repoTags[0]!0 == app.image!1) { %>
+	                                    <option value="${x.repoTags[0]!}" selected>${x.repoTags[0]!}</option>
+	                                <% } else { %>
+	                                    <option value="${x.repoTags[0]!}">${x.repoTags[0]!}</option>
+	                                <% } %>
+	                            <% } %>
+	                        </select>
+                        <% } %>
+                    </div>
+                </div>
+
+                <div class="am-form-group am-margin-top-xl">
+                    <div class="am-u-sm-9 am-u-sm-push-3">
+                        <button type="submit" class="am-btn am-btn-primary">
+                            <% if(isEmpty(app)) { %>保存<% } else { %>修改<% } %>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<% } %>

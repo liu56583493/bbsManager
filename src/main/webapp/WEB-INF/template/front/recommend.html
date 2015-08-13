@@ -1,0 +1,58 @@
+<html class="no-js" lang="en">
+<head>
+	<title>51torrent</title>
+    <meta name="keywords" content="iMovie 51torrent 蓝光电影 1024 高清 dreamlu 交流 分享" />
+	<meta name="description" content="iMovie 51torrent 蓝光电影 1024 高清 dreamlu 交流 分享" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+	<% include("/front/_inc/mate.html") {} %>
+	<!-- CSS Bootstrap & Custom -->
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/animate.css">
+    <link rel="stylesheet" href="${ctxPath}/static/front/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="${ctxPath}/static/front/assets/css/templatemo_misc.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="/${ctxPath}static/front/assets/css/templatemo_style.css">
+  	<link rel="stylesheet" href="${ctxPath}/static/front/assets/css/admin.css">
+  	<link rel="stylesheet" href="${ctxPath}/static/front/assets/css/cms-athor.css">
+  	<link rel="stylesheet" href="${ctxPath}/static/front/assets/css/siweifu-center.css">
+</head>
+<body>
+	<% include("/front/_inc/header.html") {} %>
+	<div id="menu-container">
+		<div class="content products animated fadeInDown" id="menu-2">
+			<div class="container">
+					<div class="row">
+						<% if(page.list != null && page.list.~size > 0) { %>
+							<% for(x in page.list){ %>
+							<div class="col-md-4 col-sm-6 ">
+								<div class="product-item ">
+									<a href="${ctxPath}/movie/${x.id}">
+										<img src="${x.recUrl!x.smallUrl}"  width="338px" height="170px" alt="${x.name!}" class="main">
+									</a>
+									<a href="${ctxPath}/movie/${x.id}" class="product-title">
+										${x.name!}
+									</a>
+									<p>
+										下载次数：${x.downNum!0}
+									</p>
+								</div> <!-- /.product-item -->
+							</div> <!-- /.col-md-4 -->
+							<% } %>
+						<% } else { %>
+							<center>
+							敬请期待~~请联系群主火速上传<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=a69545e43f840d8ac0fa5df957c86cde2e947cca61f73da00d5a62b75298a241"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="51torrent" title="51torrent"></a>
+							</center>
+						<% } %>
+					</div> <!-- /.row -->
+			</div> <!-- /.slide-item -->
+		</div> <!-- /.products -->
+		<div class="am-cf" style="margin-right:570px">
+		  <div class="am-fr">
+			<% include("/commons/_paginate.html", {actionUrl: ctxPath + '/recommend/'+type, page: page!}){} %>
+		  </div>
+		</div>
+	<% include("/front/_inc/footer.html") {} %>
+	<% include("/front/_inc/_script.html") {} %>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* CSS Document */
+.cms-regiter-btt .am-btn{ width:100%;}
+.cms-regiter-btt .am-btn-primary {
+  color: #ffffff;
+  background-color: #cb312f;
+  border-color: #cb312f;
+}
+.cms-regiter-btt .am-btn-primary:hover,
+.cms-regiter-btt .am-btn-primary:focus,
+.cms-regiter-btt .am-btn-primary:active,
+.cms-regiter-btt .am-btn-primary.am-active,
+.cms-regiter-btt .am-active .am-btn-primary.am-dropdown-toggle {
+  color: #ffffff;
+  border-color: #b71d1b;
+}
+.cms-regiter-btt .am-btn-primary:hover,
+.cms-regiter-btt .am-btn-primary:focus {
+  background-color: #b71d1b;
+}
+.cms-regiter-btt .am-btn-primary:active,
+.cms-regiter-btt .am-btn-primary.am-active,
+.cms-regiter-btt .am-active .am-btn-primary.am-dropdown-toggle {
+  background-image: none;
+  background-color: #b71d1b;
+}
+.cms-remember{color:#999; font-weight:normal;}
+
+.cms-regiter-form .am-form select:focus,
+.cms-regiter-form .am-form textarea:focus,
+.cms-regiter-form .am-form input[type="text"]:focus,
+.cms-regiter-form .am-form input[type="password"]:focus,
+.cms-regiter-form .am-form input[type="email"]:focus,
+.cms-regiter-form .am-form-field:focus {
+  background-color: #fefffe;
+  border-color: #cb312f;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(183, 29, 27, 0.3);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(183, 29, 27, 0.3);
+}
+.cms-landed{ width:100%; overflow:hidden;}
+.cms-landed02{ text-align:right;}
+.cms-landed01{ text-align:left;}
+.cms-pc-title{font-size:2rem;color:#999; font-weight: normal;}
+.cms-pc-title01{color:#333;}

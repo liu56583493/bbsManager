@@ -1,0 +1,20 @@
+## db local
+db.jdbcUrl = jdbc:mysql://127.0.0.1:3306/movie?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+db.user = root
+db.password = root
+isdev = true
+
+##cookie secret
+admin.secret=swf.com_admin$%^#9
+web.secret=swf.com_web@#$%%^*
+app.secret=swf.com_app@#$%%^*
+
+## lucene index path
+## search
+search.indexName = MOVIES
+search.keyFieldName = movieid
+search.rootDir = /home/work/movie.dreamlu.net/index/
+search.enableBackup = false
+
+search.pageSize = 6
+
